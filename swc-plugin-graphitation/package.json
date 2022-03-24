@@ -1,0 +1,14 @@
+{
+    "name": "swc-plugin-graphitation",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "keywords": ["swc-plugin"],
+    "main": "target/wasm32-wasi/debug/graphitation.wasm",
+    "scripts": {
+        "build": "cargo build --target wasm32-wasi",
+        "prepublishOnly": "cargo build --release --target wasm32-wasi"
+    },
+    "files": []
+}

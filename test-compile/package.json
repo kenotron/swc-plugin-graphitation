@@ -1,0 +1,17 @@
+{
+  "name": "test-compile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-wasi-unstable-preview1 build.mjs",
+    "build": "swc src/test.ts"
+  },
+  "dependencies": {
+    "swc-plugin-graphitation": "*"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.56",
+    "@swc/core": "^1.2.160"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "jsc": {
+    "experimental": {
+      "cacheRoot": ".cache",
+      "plugins": [["../swc-plugin-graphitation", {}]]
+    }
+  }
+}

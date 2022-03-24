@@ -1,0 +1,16 @@
+{
+  "name": "graphitation",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ken Chau <kchau@microsoft.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "swc-plugin-graphitation",
+      "test-compile"
+    ]
+  },
+  "devDependencies": {
+    "lage": "^1.5.0"
+  }
+}
