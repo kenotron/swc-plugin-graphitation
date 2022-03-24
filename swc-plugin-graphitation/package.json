@@ -10,5 +10,8 @@
         "build": "cargo build --target wasm32-wasi",
         "prepublishOnly": "cargo build --release --target wasm32-wasi"
     },
-    "files": []
+    "files": [],
+    "dependencies": {
+        "relay-compiler": "^13.2.0"
+    }
 }
